@@ -1,0 +1,114 @@
+body{
+    background-color: #ffd180;
+}
+button{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.line{
+    margin: 10% 30%;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    margin: 10% auto;
+    font-family: 'Indie Flower', cursive;
+}
+.b1{
+    background-color: blue;
+}
+/*.b1 {
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 20px;
+    letter-spacing: 4px;
+    position: relative;
+    background-color: #16a085;
+    border: none;
+    color: #fff;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition-duration: 0.4s;
+    overflow: hidden;
+    box-shadow: 0 5px 15px #193047;
+    border-radius: 4px;
+  }
+  
+  .b1:hover {
+    background: #fff;
+    box-shadow: 0px 2px 10px 5px #1abc9c;
+    color: #000;
+  }
+  
+  .b1:after {
+    content: "";
+    background: #1abc9c;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .b1:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+  
+  .b1:focus { outline:0; }*/
+.b1clicked{
+    background-color: #448aff;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.b1:active{
+    background-color: #448aff;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.b2{
+    background-color: yellow;
+}
+.b2clicked, .b2:active{
+    background-color: #ffff8d;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.b3{
+    background-color: green;
+}
+.b3clicked, .b3:active{
+    background-color: #43a047;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.b4{
+    background-color: red;
+}
+.b4clicked, .b4:active{
+    background-color: #e53935;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+/*button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }*/
+.bodyTrue{
+    background-color: #00e676;
+}
+.bodyFalse{
+    background-color: #ff1744;
+}
